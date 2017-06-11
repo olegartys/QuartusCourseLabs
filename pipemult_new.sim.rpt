@@ -1,0 +1,544 @@
+Simulator report for pipemult_new
+Tue Apr 18 15:42:36 2017
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 100.0 ns     ;
+; Simulation Netlist Size     ; 170 nodes    ;
+; Simulation Coverage         ;      21.40 % ;
+; Total Number of Transitions ; 176          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
+; Device                      ; EP3C10E144C8 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport  ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport  ; Transport     ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++------------------------------------------------------------------------------------------------+
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ALTSYNCRAM ;
++------------------------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      21.40 % ;
+; Total nodes checked                                 ; 170          ;
+; Total output ports checked                          ; 215          ;
+; Total output ports with complete 1/0-value coverage ; 46           ;
+; Total output ports with no 1/0-value coverage       ; 156          ;
+; Total output ports with no 1-value coverage         ; 156          ;
+; Total output ports with no 0-value coverage         ; 169          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                        ;
++--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                        ; Output Port Name                                                                             ; Output Port Type ;
++--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------+
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[0]                                                                          ; portbdataout0    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[2]                                                                          ; portbdataout2    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[3]                                                                          ; portbdataout3    ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[0]          ; dataout2         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[2]          ; dataout4         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[3]          ; dataout5         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[4]          ; dataout6         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[5]          ; dataout7         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1          ; dataout2         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT2 ; dataout4         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT3 ; dataout5         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT4 ; dataout6         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT5 ; dataout7         ;
+; |pipemult2|q[3]~output                                                                           ; |pipemult2|q[3]~output                                                                       ; o                ;
+; |pipemult2|q[3]                                                                                  ; |pipemult2|q[3]                                                                              ; padout           ;
+; |pipemult2|q[2]~output                                                                           ; |pipemult2|q[2]~output                                                                       ; o                ;
+; |pipemult2|q[2]                                                                                  ; |pipemult2|q[2]                                                                              ; padout           ;
+; |pipemult2|q[0]~output                                                                           ; |pipemult2|q[0]~output                                                                       ; o                ;
+; |pipemult2|q[0]                                                                                  ; |pipemult2|q[0]                                                                              ; padout           ;
+; |pipemult2|clk1~input                                                                            ; |pipemult2|clk1~input                                                                        ; o                ;
+; |pipemult2|clk1                                                                                  ; |pipemult2|clk1                                                                              ; padout           ;
+; |pipemult2|wraddress[0]~input                                                                    ; |pipemult2|wraddress[0]~input                                                                ; o                ;
+; |pipemult2|wraddress[0]                                                                          ; |pipemult2|wraddress[0]                                                                      ; padout           ;
+; |pipemult2|wraddress[1]~input                                                                    ; |pipemult2|wraddress[1]~input                                                                ; o                ;
+; |pipemult2|wraddress[1]                                                                          ; |pipemult2|wraddress[1]                                                                      ; padout           ;
+; |pipemult2|wraddress[2]~input                                                                    ; |pipemult2|wraddress[2]~input                                                                ; o                ;
+; |pipemult2|wraddress[2]                                                                          ; |pipemult2|wraddress[2]                                                                      ; padout           ;
+; |pipemult2|rdaddress[0]~input                                                                    ; |pipemult2|rdaddress[0]~input                                                                ; o                ;
+; |pipemult2|rdaddress[0]                                                                          ; |pipemult2|rdaddress[0]                                                                      ; padout           ;
+; |pipemult2|rdaddress[1]~input                                                                    ; |pipemult2|rdaddress[1]~input                                                                ; o                ;
+; |pipemult2|rdaddress[1]                                                                          ; |pipemult2|rdaddress[1]                                                                      ; padout           ;
+; |pipemult2|rdaddress[2]~input                                                                    ; |pipemult2|rdaddress[2]~input                                                                ; o                ;
+; |pipemult2|rdaddress[2]                                                                          ; |pipemult2|rdaddress[2]                                                                      ; padout           ;
+; |pipemult2|dataa[0]~input                                                                        ; |pipemult2|dataa[0]~input                                                                    ; o                ;
+; |pipemult2|dataa[0]                                                                              ; |pipemult2|dataa[0]                                                                          ; padout           ;
+; |pipemult2|dataa[1]~input                                                                        ; |pipemult2|dataa[1]~input                                                                    ; o                ;
+; |pipemult2|dataa[1]                                                                              ; |pipemult2|dataa[1]                                                                          ; padout           ;
+; |pipemult2|dataa[2]~input                                                                        ; |pipemult2|dataa[2]~input                                                                    ; o                ;
+; |pipemult2|dataa[2]                                                                              ; |pipemult2|dataa[2]                                                                          ; padout           ;
+; |pipemult2|datab[0]~input                                                                        ; |pipemult2|datab[0]~input                                                                    ; o                ;
+; |pipemult2|datab[0]                                                                              ; |pipemult2|datab[0]                                                                          ; padout           ;
+; |pipemult2|datab[1]~input                                                                        ; |pipemult2|datab[1]~input                                                                    ; o                ;
+; |pipemult2|datab[1]                                                                              ; |pipemult2|datab[1]                                                                          ; padout           ;
+; |pipemult2|datab[2]~input                                                                        ; |pipemult2|datab[2]~input                                                                    ; o                ;
+; |pipemult2|datab[2]                                                                              ; |pipemult2|datab[2]                                                                          ; padout           ;
+; |pipemult2|clk1~inputclkctrl                                                                     ; |pipemult2|clk1~inputclkctrl                                                                 ; outclk           ;
++--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                            ;
++--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                        ; Output Port Name                                                                              ; Output Port Type ;
++--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[1]                                                                           ; portbdataout1    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[5]                                                                           ; portbdataout5    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[6]                                                                           ; portbdataout6    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[7]                                                                           ; portbdataout7    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[8]                                                                           ; portbdataout8    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[9]                                                                           ; portbdataout9    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[10]                                                                          ; portbdataout10   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[11]                                                                          ; portbdataout11   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[12]                                                                          ; portbdataout12   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[13]                                                                          ; portbdataout13   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[14]                                                                          ; portbdataout14   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[15]                                                                          ; portbdataout15   ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[1]           ; dataout3         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[7]           ; dataout9         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[8]           ; dataout10        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[9]           ; dataout11        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[10]          ; dataout12        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[11]          ; dataout13        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[12]          ; dataout14        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[13]          ; dataout15        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[14]          ; dataout16        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[15]          ; dataout17        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~2         ; dataout0         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~3         ; dataout1         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT1  ; dataout3         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT7  ; dataout9         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT8  ; dataout10        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT9  ; dataout11        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT10 ; dataout12        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT11 ; dataout13        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT12 ; dataout14        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT13 ; dataout15        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT14 ; dataout16        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT15 ; dataout17        ;
+; |pipemult2|ftdi_bd3~output                                                                       ; |pipemult2|ftdi_bd3~output                                                                    ; o                ;
+; |pipemult2|ftdi_bd3                                                                              ; |pipemult2|ftdi_bd3                                                                           ; padout           ;
+; |pipemult2|FTC[7]~output                                                                         ; |pipemult2|FTC[7]~output                                                                      ; o                ;
+; |pipemult2|FTC[7]                                                                                ; |pipemult2|FTC[7]                                                                             ; padout           ;
+; |pipemult2|FTC[6]~output                                                                         ; |pipemult2|FTC[6]~output                                                                      ; o                ;
+; |pipemult2|FTC[6]                                                                                ; |pipemult2|FTC[6]                                                                             ; padout           ;
+; |pipemult2|FTC[5]~output                                                                         ; |pipemult2|FTC[5]~output                                                                      ; o                ;
+; |pipemult2|FTC[5]                                                                                ; |pipemult2|FTC[5]                                                                             ; padout           ;
+; |pipemult2|FTC[4]~output                                                                         ; |pipemult2|FTC[4]~output                                                                      ; o                ;
+; |pipemult2|FTC[4]                                                                                ; |pipemult2|FTC[4]                                                                             ; padout           ;
+; |pipemult2|FTC[3]~output                                                                         ; |pipemult2|FTC[3]~output                                                                      ; o                ;
+; |pipemult2|FTC[3]                                                                                ; |pipemult2|FTC[3]                                                                             ; padout           ;
+; |pipemult2|FTC[2]~output                                                                         ; |pipemult2|FTC[2]~output                                                                      ; o                ;
+; |pipemult2|FTC[2]                                                                                ; |pipemult2|FTC[2]                                                                             ; padout           ;
+; |pipemult2|FTC[1]~output                                                                         ; |pipemult2|FTC[1]~output                                                                      ; o                ;
+; |pipemult2|FTC[1]                                                                                ; |pipemult2|FTC[1]                                                                             ; padout           ;
+; |pipemult2|FTC[0]~output                                                                         ; |pipemult2|FTC[0]~output                                                                      ; o                ;
+; |pipemult2|FTC[0]                                                                                ; |pipemult2|FTC[0]                                                                             ; padout           ;
+; |pipemult2|FTD[7]~output                                                                         ; |pipemult2|FTD[7]~output                                                                      ; o                ;
+; |pipemult2|FTD[7]                                                                                ; |pipemult2|FTD[7]                                                                             ; padout           ;
+; |pipemult2|FTD[6]~output                                                                         ; |pipemult2|FTD[6]~output                                                                      ; o                ;
+; |pipemult2|FTD[6]                                                                                ; |pipemult2|FTD[6]                                                                             ; padout           ;
+; |pipemult2|FTD[5]~output                                                                         ; |pipemult2|FTD[5]~output                                                                      ; o                ;
+; |pipemult2|FTD[5]                                                                                ; |pipemult2|FTD[5]                                                                             ; padout           ;
+; |pipemult2|FTD[4]~output                                                                         ; |pipemult2|FTD[4]~output                                                                      ; o                ;
+; |pipemult2|FTD[4]                                                                                ; |pipemult2|FTD[4]                                                                             ; padout           ;
+; |pipemult2|FTD[3]~output                                                                         ; |pipemult2|FTD[3]~output                                                                      ; o                ;
+; |pipemult2|FTD[3]                                                                                ; |pipemult2|FTD[3]                                                                             ; padout           ;
+; |pipemult2|FTD[2]~output                                                                         ; |pipemult2|FTD[2]~output                                                                      ; o                ;
+; |pipemult2|FTD[2]                                                                                ; |pipemult2|FTD[2]                                                                             ; padout           ;
+; |pipemult2|FTD[1]~output                                                                         ; |pipemult2|FTD[1]~output                                                                      ; o                ;
+; |pipemult2|FTD[1]                                                                                ; |pipemult2|FTD[1]                                                                             ; padout           ;
+; |pipemult2|FTD[0]~output                                                                         ; |pipemult2|FTD[0]~output                                                                      ; o                ;
+; |pipemult2|FTD[0]                                                                                ; |pipemult2|FTD[0]                                                                             ; padout           ;
+; |pipemult2|io[19]~output                                                                         ; |pipemult2|io[19]~output                                                                      ; o                ;
+; |pipemult2|io[19]                                                                                ; |pipemult2|io[19]                                                                             ; padout           ;
+; |pipemult2|io[18]~output                                                                         ; |pipemult2|io[18]~output                                                                      ; o                ;
+; |pipemult2|io[18]                                                                                ; |pipemult2|io[18]                                                                             ; padout           ;
+; |pipemult2|io[17]~output                                                                         ; |pipemult2|io[17]~output                                                                      ; o                ;
+; |pipemult2|io[17]                                                                                ; |pipemult2|io[17]                                                                             ; padout           ;
+; |pipemult2|io[16]~output                                                                         ; |pipemult2|io[16]~output                                                                      ; o                ;
+; |pipemult2|io[16]                                                                                ; |pipemult2|io[16]                                                                             ; padout           ;
+; |pipemult2|io[15]~output                                                                         ; |pipemult2|io[15]~output                                                                      ; o                ;
+; |pipemult2|io[15]                                                                                ; |pipemult2|io[15]                                                                             ; padout           ;
+; |pipemult2|io[14]~output                                                                         ; |pipemult2|io[14]~output                                                                      ; o                ;
+; |pipemult2|io[14]                                                                                ; |pipemult2|io[14]                                                                             ; padout           ;
+; |pipemult2|io[13]~output                                                                         ; |pipemult2|io[13]~output                                                                      ; o                ;
+; |pipemult2|io[13]                                                                                ; |pipemult2|io[13]                                                                             ; padout           ;
+; |pipemult2|io[12]~output                                                                         ; |pipemult2|io[12]~output                                                                      ; o                ;
+; |pipemult2|io[12]                                                                                ; |pipemult2|io[12]                                                                             ; padout           ;
+; |pipemult2|io[11]~output                                                                         ; |pipemult2|io[11]~output                                                                      ; o                ;
+; |pipemult2|io[11]                                                                                ; |pipemult2|io[11]                                                                             ; padout           ;
+; |pipemult2|io[10]~output                                                                         ; |pipemult2|io[10]~output                                                                      ; o                ;
+; |pipemult2|io[10]                                                                                ; |pipemult2|io[10]                                                                             ; padout           ;
+; |pipemult2|io[9]~output                                                                          ; |pipemult2|io[9]~output                                                                       ; o                ;
+; |pipemult2|io[9]                                                                                 ; |pipemult2|io[9]                                                                              ; padout           ;
+; |pipemult2|io[8]~output                                                                          ; |pipemult2|io[8]~output                                                                       ; o                ;
+; |pipemult2|io[8]                                                                                 ; |pipemult2|io[8]                                                                              ; padout           ;
+; |pipemult2|io[7]~output                                                                          ; |pipemult2|io[7]~output                                                                       ; o                ;
+; |pipemult2|io[7]                                                                                 ; |pipemult2|io[7]                                                                              ; padout           ;
+; |pipemult2|io[6]~output                                                                          ; |pipemult2|io[6]~output                                                                       ; o                ;
+; |pipemult2|io[6]                                                                                 ; |pipemult2|io[6]                                                                              ; padout           ;
+; |pipemult2|io[5]~output                                                                          ; |pipemult2|io[5]~output                                                                       ; o                ;
+; |pipemult2|io[5]                                                                                 ; |pipemult2|io[5]                                                                              ; padout           ;
+; |pipemult2|io[4]~output                                                                          ; |pipemult2|io[4]~output                                                                       ; o                ;
+; |pipemult2|io[4]                                                                                 ; |pipemult2|io[4]                                                                              ; padout           ;
+; |pipemult2|io[3]~output                                                                          ; |pipemult2|io[3]~output                                                                       ; o                ;
+; |pipemult2|io[3]                                                                                 ; |pipemult2|io[3]                                                                              ; padout           ;
+; |pipemult2|io[2]~output                                                                          ; |pipemult2|io[2]~output                                                                       ; o                ;
+; |pipemult2|io[2]                                                                                 ; |pipemult2|io[2]                                                                              ; padout           ;
+; |pipemult2|io[1]~output                                                                          ; |pipemult2|io[1]~output                                                                       ; o                ;
+; |pipemult2|io[1]                                                                                 ; |pipemult2|io[1]                                                                              ; padout           ;
+; |pipemult2|io[0]~output                                                                          ; |pipemult2|io[0]~output                                                                       ; o                ;
+; |pipemult2|io[0]                                                                                 ; |pipemult2|io[0]                                                                              ; padout           ;
+; |pipemult2|q[15]~output                                                                          ; |pipemult2|q[15]~output                                                                       ; o                ;
+; |pipemult2|q[15]                                                                                 ; |pipemult2|q[15]                                                                              ; padout           ;
+; |pipemult2|q[14]~output                                                                          ; |pipemult2|q[14]~output                                                                       ; o                ;
+; |pipemult2|q[14]                                                                                 ; |pipemult2|q[14]                                                                              ; padout           ;
+; |pipemult2|q[13]~output                                                                          ; |pipemult2|q[13]~output                                                                       ; o                ;
+; |pipemult2|q[13]                                                                                 ; |pipemult2|q[13]                                                                              ; padout           ;
+; |pipemult2|q[12]~output                                                                          ; |pipemult2|q[12]~output                                                                       ; o                ;
+; |pipemult2|q[12]                                                                                 ; |pipemult2|q[12]                                                                              ; padout           ;
+; |pipemult2|q[11]~output                                                                          ; |pipemult2|q[11]~output                                                                       ; o                ;
+; |pipemult2|q[11]                                                                                 ; |pipemult2|q[11]                                                                              ; padout           ;
+; |pipemult2|q[10]~output                                                                          ; |pipemult2|q[10]~output                                                                       ; o                ;
+; |pipemult2|q[10]                                                                                 ; |pipemult2|q[10]                                                                              ; padout           ;
+; |pipemult2|q[9]~output                                                                           ; |pipemult2|q[9]~output                                                                        ; o                ;
+; |pipemult2|q[9]                                                                                  ; |pipemult2|q[9]                                                                               ; padout           ;
+; |pipemult2|q[8]~output                                                                           ; |pipemult2|q[8]~output                                                                        ; o                ;
+; |pipemult2|q[8]                                                                                  ; |pipemult2|q[8]                                                                               ; padout           ;
+; |pipemult2|q[7]~output                                                                           ; |pipemult2|q[7]~output                                                                        ; o                ;
+; |pipemult2|q[7]                                                                                  ; |pipemult2|q[7]                                                                               ; padout           ;
+; |pipemult2|q[6]~output                                                                           ; |pipemult2|q[6]~output                                                                        ; o                ;
+; |pipemult2|q[6]                                                                                  ; |pipemult2|q[6]                                                                               ; padout           ;
+; |pipemult2|q[5]~output                                                                           ; |pipemult2|q[5]~output                                                                        ; o                ;
+; |pipemult2|q[5]                                                                                  ; |pipemult2|q[5]                                                                               ; padout           ;
+; |pipemult2|q[1]~output                                                                           ; |pipemult2|q[1]~output                                                                        ; o                ;
+; |pipemult2|q[1]                                                                                  ; |pipemult2|q[1]                                                                               ; padout           ;
+; |pipemult2|FTDI_BD2                                                                              ; |pipemult2|FTDI_BD2                                                                           ; padout           ;
+; |pipemult2|FTDI_BD0                                                                              ; |pipemult2|FTDI_BD0                                                                           ; padout           ;
+; |pipemult2|wren~input                                                                            ; |pipemult2|wren~input                                                                         ; o                ;
+; |pipemult2|wren                                                                                  ; |pipemult2|wren                                                                               ; padout           ;
+; |pipemult2|wraddress[4]~input                                                                    ; |pipemult2|wraddress[4]~input                                                                 ; o                ;
+; |pipemult2|wraddress[4]                                                                          ; |pipemult2|wraddress[4]                                                                       ; padout           ;
+; |pipemult2|rdaddress[4]~input                                                                    ; |pipemult2|rdaddress[4]~input                                                                 ; o                ;
+; |pipemult2|rdaddress[4]                                                                          ; |pipemult2|rdaddress[4]                                                                       ; padout           ;
+; |pipemult2|dataa[4]~input                                                                        ; |pipemult2|dataa[4]~input                                                                     ; o                ;
+; |pipemult2|dataa[4]                                                                              ; |pipemult2|dataa[4]                                                                           ; padout           ;
+; |pipemult2|dataa[5]~input                                                                        ; |pipemult2|dataa[5]~input                                                                     ; o                ;
+; |pipemult2|dataa[5]                                                                              ; |pipemult2|dataa[5]                                                                           ; padout           ;
+; |pipemult2|dataa[6]~input                                                                        ; |pipemult2|dataa[6]~input                                                                     ; o                ;
+; |pipemult2|dataa[6]                                                                              ; |pipemult2|dataa[6]                                                                           ; padout           ;
+; |pipemult2|dataa[7]~input                                                                        ; |pipemult2|dataa[7]~input                                                                     ; o                ;
+; |pipemult2|dataa[7]                                                                              ; |pipemult2|dataa[7]                                                                           ; padout           ;
+; |pipemult2|datab[4]~input                                                                        ; |pipemult2|datab[4]~input                                                                     ; o                ;
+; |pipemult2|datab[4]                                                                              ; |pipemult2|datab[4]                                                                           ; padout           ;
+; |pipemult2|datab[5]~input                                                                        ; |pipemult2|datab[5]~input                                                                     ; o                ;
+; |pipemult2|datab[5]                                                                              ; |pipemult2|datab[5]                                                                           ; padout           ;
+; |pipemult2|datab[6]~input                                                                        ; |pipemult2|datab[6]~input                                                                     ; o                ;
+; |pipemult2|datab[6]                                                                              ; |pipemult2|datab[6]                                                                           ; padout           ;
+; |pipemult2|datab[7]~input                                                                        ; |pipemult2|datab[7]~input                                                                     ; o                ;
+; |pipemult2|datab[7]                                                                              ; |pipemult2|datab[7]                                                                           ; padout           ;
++--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                            ;
++--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                        ; Output Port Name                                                                              ; Output Port Type ;
++--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[1]                                                                           ; portbdataout1    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[4]                                                                           ; portbdataout4    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[5]                                                                           ; portbdataout5    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[6]                                                                           ; portbdataout6    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[7]                                                                           ; portbdataout7    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[8]                                                                           ; portbdataout8    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[9]                                                                           ; portbdataout9    ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[10]                                                                          ; portbdataout10   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[11]                                                                          ; portbdataout11   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[12]                                                                          ; portbdataout12   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[13]                                                                          ; portbdataout13   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[14]                                                                          ; portbdataout14   ;
+; |pipemult2|ram:inst6|altsyncram:altsyncram_component|altsyncram_qgq1:auto_generated|ram_block1a0 ; |pipemult2|inst2[15]                                                                          ; portbdataout15   ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[1]           ; dataout3         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[6]           ; dataout8         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[7]           ; dataout9         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[8]           ; dataout10        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[9]           ; dataout11        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[10]          ; dataout12        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[11]          ; dataout13        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[12]          ; dataout14        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[13]          ; dataout15        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[14]          ; dataout16        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_out2               ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|result[15]          ; dataout17        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~2         ; dataout0         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~3         ; dataout1         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT1  ; dataout3         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT6  ; dataout8         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT7  ; dataout9         ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT8  ; dataout10        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT9  ; dataout11        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT10 ; dataout12        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT11 ; dataout13        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT12 ; dataout14        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT13 ; dataout15        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT14 ; dataout16        ;
+; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1              ; |pipemult2|mult:inst3|lpm_mult:lpm_mult_component|mult_c9p:auto_generated|mac_mult1~DATAOUT15 ; dataout17        ;
+; |pipemult2|ftdi_bd3~output                                                                       ; |pipemult2|ftdi_bd3~output                                                                    ; o                ;
+; |pipemult2|ftdi_bd3                                                                              ; |pipemult2|ftdi_bd3                                                                           ; padout           ;
+; |pipemult2|FTC[7]~output                                                                         ; |pipemult2|FTC[7]~output                                                                      ; o                ;
+; |pipemult2|FTC[7]                                                                                ; |pipemult2|FTC[7]                                                                             ; padout           ;
+; |pipemult2|FTC[6]~output                                                                         ; |pipemult2|FTC[6]~output                                                                      ; o                ;
+; |pipemult2|FTC[6]                                                                                ; |pipemult2|FTC[6]                                                                             ; padout           ;
+; |pipemult2|FTC[5]~output                                                                         ; |pipemult2|FTC[5]~output                                                                      ; o                ;
+; |pipemult2|FTC[5]                                                                                ; |pipemult2|FTC[5]                                                                             ; padout           ;
+; |pipemult2|FTC[4]~output                                                                         ; |pipemult2|FTC[4]~output                                                                      ; o                ;
+; |pipemult2|FTC[4]                                                                                ; |pipemult2|FTC[4]                                                                             ; padout           ;
+; |pipemult2|FTC[3]~output                                                                         ; |pipemult2|FTC[3]~output                                                                      ; o                ;
+; |pipemult2|FTC[3]                                                                                ; |pipemult2|FTC[3]                                                                             ; padout           ;
+; |pipemult2|FTC[2]~output                                                                         ; |pipemult2|FTC[2]~output                                                                      ; o                ;
+; |pipemult2|FTC[2]                                                                                ; |pipemult2|FTC[2]                                                                             ; padout           ;
+; |pipemult2|FTC[1]~output                                                                         ; |pipemult2|FTC[1]~output                                                                      ; o                ;
+; |pipemult2|FTC[1]                                                                                ; |pipemult2|FTC[1]                                                                             ; padout           ;
+; |pipemult2|FTC[0]~output                                                                         ; |pipemult2|FTC[0]~output                                                                      ; o                ;
+; |pipemult2|FTC[0]                                                                                ; |pipemult2|FTC[0]                                                                             ; padout           ;
+; |pipemult2|FTD[7]~output                                                                         ; |pipemult2|FTD[7]~output                                                                      ; o                ;
+; |pipemult2|FTD[7]                                                                                ; |pipemult2|FTD[7]                                                                             ; padout           ;
+; |pipemult2|FTD[6]~output                                                                         ; |pipemult2|FTD[6]~output                                                                      ; o                ;
+; |pipemult2|FTD[6]                                                                                ; |pipemult2|FTD[6]                                                                             ; padout           ;
+; |pipemult2|FTD[5]~output                                                                         ; |pipemult2|FTD[5]~output                                                                      ; o                ;
+; |pipemult2|FTD[5]                                                                                ; |pipemult2|FTD[5]                                                                             ; padout           ;
+; |pipemult2|FTD[4]~output                                                                         ; |pipemult2|FTD[4]~output                                                                      ; o                ;
+; |pipemult2|FTD[4]                                                                                ; |pipemult2|FTD[4]                                                                             ; padout           ;
+; |pipemult2|FTD[3]~output                                                                         ; |pipemult2|FTD[3]~output                                                                      ; o                ;
+; |pipemult2|FTD[3]                                                                                ; |pipemult2|FTD[3]                                                                             ; padout           ;
+; |pipemult2|FTD[2]~output                                                                         ; |pipemult2|FTD[2]~output                                                                      ; o                ;
+; |pipemult2|FTD[2]                                                                                ; |pipemult2|FTD[2]                                                                             ; padout           ;
+; |pipemult2|FTD[1]~output                                                                         ; |pipemult2|FTD[1]~output                                                                      ; o                ;
+; |pipemult2|FTD[1]                                                                                ; |pipemult2|FTD[1]                                                                             ; padout           ;
+; |pipemult2|FTD[0]~output                                                                         ; |pipemult2|FTD[0]~output                                                                      ; o                ;
+; |pipemult2|FTD[0]                                                                                ; |pipemult2|FTD[0]                                                                             ; padout           ;
+; |pipemult2|io[19]~output                                                                         ; |pipemult2|io[19]~output                                                                      ; o                ;
+; |pipemult2|io[19]                                                                                ; |pipemult2|io[19]                                                                             ; padout           ;
+; |pipemult2|io[18]~output                                                                         ; |pipemult2|io[18]~output                                                                      ; o                ;
+; |pipemult2|io[18]                                                                                ; |pipemult2|io[18]                                                                             ; padout           ;
+; |pipemult2|io[17]~output                                                                         ; |pipemult2|io[17]~output                                                                      ; o                ;
+; |pipemult2|io[17]                                                                                ; |pipemult2|io[17]                                                                             ; padout           ;
+; |pipemult2|io[16]~output                                                                         ; |pipemult2|io[16]~output                                                                      ; o                ;
+; |pipemult2|io[16]                                                                                ; |pipemult2|io[16]                                                                             ; padout           ;
+; |pipemult2|io[15]~output                                                                         ; |pipemult2|io[15]~output                                                                      ; o                ;
+; |pipemult2|io[15]                                                                                ; |pipemult2|io[15]                                                                             ; padout           ;
+; |pipemult2|io[14]~output                                                                         ; |pipemult2|io[14]~output                                                                      ; o                ;
+; |pipemult2|io[14]                                                                                ; |pipemult2|io[14]                                                                             ; padout           ;
+; |pipemult2|io[13]~output                                                                         ; |pipemult2|io[13]~output                                                                      ; o                ;
+; |pipemult2|io[13]                                                                                ; |pipemult2|io[13]                                                                             ; padout           ;
+; |pipemult2|io[12]~output                                                                         ; |pipemult2|io[12]~output                                                                      ; o                ;
+; |pipemult2|io[12]                                                                                ; |pipemult2|io[12]                                                                             ; padout           ;
+; |pipemult2|io[11]~output                                                                         ; |pipemult2|io[11]~output                                                                      ; o                ;
+; |pipemult2|io[11]                                                                                ; |pipemult2|io[11]                                                                             ; padout           ;
+; |pipemult2|io[10]~output                                                                         ; |pipemult2|io[10]~output                                                                      ; o                ;
+; |pipemult2|io[10]                                                                                ; |pipemult2|io[10]                                                                             ; padout           ;
+; |pipemult2|io[9]~output                                                                          ; |pipemult2|io[9]~output                                                                       ; o                ;
+; |pipemult2|io[9]                                                                                 ; |pipemult2|io[9]                                                                              ; padout           ;
+; |pipemult2|io[8]~output                                                                          ; |pipemult2|io[8]~output                                                                       ; o                ;
+; |pipemult2|io[8]                                                                                 ; |pipemult2|io[8]                                                                              ; padout           ;
+; |pipemult2|io[7]~output                                                                          ; |pipemult2|io[7]~output                                                                       ; o                ;
+; |pipemult2|io[7]                                                                                 ; |pipemult2|io[7]                                                                              ; padout           ;
+; |pipemult2|io[6]~output                                                                          ; |pipemult2|io[6]~output                                                                       ; o                ;
+; |pipemult2|io[6]                                                                                 ; |pipemult2|io[6]                                                                              ; padout           ;
+; |pipemult2|io[5]~output                                                                          ; |pipemult2|io[5]~output                                                                       ; o                ;
+; |pipemult2|io[5]                                                                                 ; |pipemult2|io[5]                                                                              ; padout           ;
+; |pipemult2|io[4]~output                                                                          ; |pipemult2|io[4]~output                                                                       ; o                ;
+; |pipemult2|io[4]                                                                                 ; |pipemult2|io[4]                                                                              ; padout           ;
+; |pipemult2|io[3]~output                                                                          ; |pipemult2|io[3]~output                                                                       ; o                ;
+; |pipemult2|io[3]                                                                                 ; |pipemult2|io[3]                                                                              ; padout           ;
+; |pipemult2|io[2]~output                                                                          ; |pipemult2|io[2]~output                                                                       ; o                ;
+; |pipemult2|io[2]                                                                                 ; |pipemult2|io[2]                                                                              ; padout           ;
+; |pipemult2|io[1]~output                                                                          ; |pipemult2|io[1]~output                                                                       ; o                ;
+; |pipemult2|io[1]                                                                                 ; |pipemult2|io[1]                                                                              ; padout           ;
+; |pipemult2|io[0]~output                                                                          ; |pipemult2|io[0]~output                                                                       ; o                ;
+; |pipemult2|io[0]                                                                                 ; |pipemult2|io[0]                                                                              ; padout           ;
+; |pipemult2|q[15]~output                                                                          ; |pipemult2|q[15]~output                                                                       ; o                ;
+; |pipemult2|q[15]                                                                                 ; |pipemult2|q[15]                                                                              ; padout           ;
+; |pipemult2|q[14]~output                                                                          ; |pipemult2|q[14]~output                                                                       ; o                ;
+; |pipemult2|q[14]                                                                                 ; |pipemult2|q[14]                                                                              ; padout           ;
+; |pipemult2|q[13]~output                                                                          ; |pipemult2|q[13]~output                                                                       ; o                ;
+; |pipemult2|q[13]                                                                                 ; |pipemult2|q[13]                                                                              ; padout           ;
+; |pipemult2|q[12]~output                                                                          ; |pipemult2|q[12]~output                                                                       ; o                ;
+; |pipemult2|q[12]                                                                                 ; |pipemult2|q[12]                                                                              ; padout           ;
+; |pipemult2|q[11]~output                                                                          ; |pipemult2|q[11]~output                                                                       ; o                ;
+; |pipemult2|q[11]                                                                                 ; |pipemult2|q[11]                                                                              ; padout           ;
+; |pipemult2|q[10]~output                                                                          ; |pipemult2|q[10]~output                                                                       ; o                ;
+; |pipemult2|q[10]                                                                                 ; |pipemult2|q[10]                                                                              ; padout           ;
+; |pipemult2|q[9]~output                                                                           ; |pipemult2|q[9]~output                                                                        ; o                ;
+; |pipemult2|q[9]                                                                                  ; |pipemult2|q[9]                                                                               ; padout           ;
+; |pipemult2|q[8]~output                                                                           ; |pipemult2|q[8]~output                                                                        ; o                ;
+; |pipemult2|q[8]                                                                                  ; |pipemult2|q[8]                                                                               ; padout           ;
+; |pipemult2|q[7]~output                                                                           ; |pipemult2|q[7]~output                                                                        ; o                ;
+; |pipemult2|q[7]                                                                                  ; |pipemult2|q[7]                                                                               ; padout           ;
+; |pipemult2|q[6]~output                                                                           ; |pipemult2|q[6]~output                                                                        ; o                ;
+; |pipemult2|q[6]                                                                                  ; |pipemult2|q[6]                                                                               ; padout           ;
+; |pipemult2|q[5]~output                                                                           ; |pipemult2|q[5]~output                                                                        ; o                ;
+; |pipemult2|q[5]                                                                                  ; |pipemult2|q[5]                                                                               ; padout           ;
+; |pipemult2|q[4]~output                                                                           ; |pipemult2|q[4]~output                                                                        ; o                ;
+; |pipemult2|q[4]                                                                                  ; |pipemult2|q[4]                                                                               ; padout           ;
+; |pipemult2|q[1]~output                                                                           ; |pipemult2|q[1]~output                                                                        ; o                ;
+; |pipemult2|q[1]                                                                                  ; |pipemult2|q[1]                                                                               ; padout           ;
+; |pipemult2|FTDI_BD2                                                                              ; |pipemult2|FTDI_BD2                                                                           ; padout           ;
+; |pipemult2|FTDI_BD0                                                                              ; |pipemult2|FTDI_BD0                                                                           ; padout           ;
+; |pipemult2|wren~input                                                                            ; |pipemult2|wren~input                                                                         ; o                ;
+; |pipemult2|wren                                                                                  ; |pipemult2|wren                                                                               ; padout           ;
+; |pipemult2|wraddress[3]~input                                                                    ; |pipemult2|wraddress[3]~input                                                                 ; o                ;
+; |pipemult2|wraddress[3]                                                                          ; |pipemult2|wraddress[3]                                                                       ; padout           ;
+; |pipemult2|wraddress[4]~input                                                                    ; |pipemult2|wraddress[4]~input                                                                 ; o                ;
+; |pipemult2|wraddress[4]                                                                          ; |pipemult2|wraddress[4]                                                                       ; padout           ;
+; |pipemult2|rdaddress[3]~input                                                                    ; |pipemult2|rdaddress[3]~input                                                                 ; o                ;
+; |pipemult2|rdaddress[3]                                                                          ; |pipemult2|rdaddress[3]                                                                       ; padout           ;
+; |pipemult2|rdaddress[4]~input                                                                    ; |pipemult2|rdaddress[4]~input                                                                 ; o                ;
+; |pipemult2|rdaddress[4]                                                                          ; |pipemult2|rdaddress[4]                                                                       ; padout           ;
+; |pipemult2|dataa[3]~input                                                                        ; |pipemult2|dataa[3]~input                                                                     ; o                ;
+; |pipemult2|dataa[3]                                                                              ; |pipemult2|dataa[3]                                                                           ; padout           ;
+; |pipemult2|dataa[4]~input                                                                        ; |pipemult2|dataa[4]~input                                                                     ; o                ;
+; |pipemult2|dataa[4]                                                                              ; |pipemult2|dataa[4]                                                                           ; padout           ;
+; |pipemult2|dataa[5]~input                                                                        ; |pipemult2|dataa[5]~input                                                                     ; o                ;
+; |pipemult2|dataa[5]                                                                              ; |pipemult2|dataa[5]                                                                           ; padout           ;
+; |pipemult2|dataa[6]~input                                                                        ; |pipemult2|dataa[6]~input                                                                     ; o                ;
+; |pipemult2|dataa[6]                                                                              ; |pipemult2|dataa[6]                                                                           ; padout           ;
+; |pipemult2|dataa[7]~input                                                                        ; |pipemult2|dataa[7]~input                                                                     ; o                ;
+; |pipemult2|dataa[7]                                                                              ; |pipemult2|dataa[7]                                                                           ; padout           ;
+; |pipemult2|datab[3]~input                                                                        ; |pipemult2|datab[3]~input                                                                     ; o                ;
+; |pipemult2|datab[3]                                                                              ; |pipemult2|datab[3]                                                                           ; padout           ;
+; |pipemult2|datab[4]~input                                                                        ; |pipemult2|datab[4]~input                                                                     ; o                ;
+; |pipemult2|datab[4]                                                                              ; |pipemult2|datab[4]                                                                           ; padout           ;
+; |pipemult2|datab[5]~input                                                                        ; |pipemult2|datab[5]~input                                                                     ; o                ;
+; |pipemult2|datab[5]                                                                              ; |pipemult2|datab[5]                                                                           ; padout           ;
+; |pipemult2|datab[6]~input                                                                        ; |pipemult2|datab[6]~input                                                                     ; o                ;
+; |pipemult2|datab[6]                                                                              ; |pipemult2|datab[6]                                                                           ; padout           ;
+; |pipemult2|datab[7]~input                                                                        ; |pipemult2|datab[7]~input                                                                     ; o                ;
+; |pipemult2|datab[7]                                                                              ; |pipemult2|datab[7]                                                                           ; padout           ;
++--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Tue Apr 18 15:42:35 2017
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off pipemult_new -c pipemult_new
+Info: Using vector source file "/home/oleglevin/quartus_labs/pipemult_new.vwf"
+Warning: Can't find signal in vector source file for input pin "|pipemult2|FTDI_BD2"
+Warning: Can't find signal in vector source file for input pin "|pipemult2|FTDI_BD0"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      21.40 %
+Info: Number of transitions in simulation is 176
+Info: Quartus II Simulator was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 139 megabytes
+    Info: Processing ended: Tue Apr 18 15:42:36 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

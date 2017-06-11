@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out",
+					"strict" : false
+				},
+				{
+					"name" : "currState[0]",
+					"strict" : false
+				},
+				{
+					"name" : "currState[1]",
+					"strict" : false
+				},
+				{
+					"name" : "currState[2]",
+					"strict" : false
+				},
+				{
+					"name" : "currState[3]",
+					"strict" : false
+				},
+				{
+					"name" : "w",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

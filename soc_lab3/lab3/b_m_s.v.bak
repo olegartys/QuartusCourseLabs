@@ -1,0 +1,16 @@
+module btns(out_m, out_s, btn);
+
+
+output out_m, out_s;
+input btn;
+
+
+reg kek = 0;
+
+always @  (btn)
+	begin
+		if (kek)
+			kek = 0;
+		else 
+			kek = 1;
+	end

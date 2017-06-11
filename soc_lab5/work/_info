@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/oleglevin/altera_lite/16.0/modelsim_ase/bin
+valu_dec
+Z0 !s110 1493382150
+!i10b 1
+!s100 A@_;z;CDVY42UKVb>MIM[3
+IZ:QMTWW7;o9<93d^S47_Q0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/oleglevin/quartus_labs/soc_lab5
+Z3 w1492170238
+Z4 8/home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v
+Z5 F/home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v
+L0 75
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1493382150.000000
+Z8 !s107 /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v|
+!i113 1
+Z10 o-work work
+valu_mul
+R0
+!i10b 1
+!s100 AnCk0[2BSce^=XVVOZfQd2
+I[=865>lgV]9mn2@2m50G=2
+R1
+R2
+R3
+R4
+R5
+L0 64
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valu_retop
+R0
+!i10b 1
+!s100 enM8MIOL8_b4KSM26E1LX0
+I88ABhcSk^NGH:JX`BMmLi0
+R1
+R2
+R3
+R4
+R5
+L0 85
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+valu_sum
+R0
+!i10b 1
+!s100 jmgM?d]U9TGGH8iOm7]^J3
+I1LU8>Ln_IODY6em?=0@_S2
+R1
+R2
+R3
+R4
+R5
+L0 52
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vbitsum
+R0
+!i10b 1
+!s100 ZHa46CdhmM;1FWf>3PS`Y3
+INjKSC4iU2o?R`OdiKG0bG0
+R1
+R2
+Z11 w1492101558
+Z12 8/home/oleglevin/quartus_labs/soc_lab5/method_example.v
+Z13 F/home/oleglevin/quartus_labs/soc_lab5/method_example.v
+L0 16
+R6
+r1
+!s85 0
+31
+R7
+Z14 !s107 /home/oleglevin/quartus_labs/soc_lab5/method_example.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|/home/oleglevin/quartus_labs/soc_lab5/method_example.v|
+!i113 1
+R10
+vlab_alu_v1
+R0
+!i10b 1
+!s100 aoW9cLVSEY@cFh;?_In]52
+I3jn`X4HM=TibC_z8]_=Nh3
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vlab_alu_v1_test
+R0
+!i10b 1
+!s100 G4BI7M]E38UIPS`zJ`i801
+I<WjjUh=lGQJV4fgbS4>U92
+R1
+R2
+w1492498762
+8/home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1_test.v
+F/home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1_test.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1_test.v|
+!i113 1
+R10
+vmy_sum
+R0
+!i10b 1
+!s100 o1__=Po;@djgHCV9iAMCC3
+IPUk@FogfUjjEiG0BaE`Qz3
+R1
+R2
+R11
+R12
+R13
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R14
+R15
+!i113 1
+R10
+vref_sum
+R0
+!i10b 1
+!s100 VjE]lKaJ36m0[:ZE5=>HQ1
+I=;3eWNiPEY1Vho;0:8;zH3
+R1
+R2
+w1492164645
+8/home/oleglevin/quartus_labs/soc_lab5/method_example2.v
+F/home/oleglevin/quartus_labs/soc_lab5/method_example2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/oleglevin/quartus_labs/soc_lab5/method_example2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oleglevin/quartus_labs/soc_lab5/method_example2.v|
+!i113 1
+R10
+vtest_sum
+R0
+!i10b 1
+!s100 :GC>kEbEzBQU>BPMnTJnC2
+IEIMB^R1:HjPVEJ_TRS?:E2
+R1
+R2
+w1492102204
+8/home/oleglevin/quartus_labs/soc_lab5/method_example_test.v
+F/home/oleglevin/quartus_labs/soc_lab5/method_example_test.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/oleglevin/quartus_labs/soc_lab5/method_example_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oleglevin/quartus_labs/soc_lab5/method_example_test.v|
+!i113 1
+R10

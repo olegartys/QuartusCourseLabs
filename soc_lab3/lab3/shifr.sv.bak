@@ -1,0 +1,22 @@
+module shifr(out, in, clk, clr);
+
+output [7:0] out;
+input[15:0] in;
+input clk, clr;
+
+reg  [7:0] _out;
+integer i;
+always @ (posedge clk or posedge clr)
+   begin
+	if (clr) 
+		_out <= 0;
+	else 
+		_out = 0;
+		for (i = 0; i < 15; i = i + 1)  
+			_out = _out + i * in[i]; 
+   end 
+
+assign out = _out;
+
+
+endmodule;

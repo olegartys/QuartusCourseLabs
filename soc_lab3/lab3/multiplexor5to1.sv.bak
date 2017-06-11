@@ -1,0 +1,36 @@
+module multiplexor5to1(out, in1, in2, in3, in4, in5, addr, clr, clk);
+
+output[3:0] out;
+
+input[3:0] in1, in2, in3, in4, in5;
+input [2:0] addr;
+input clk, clr;
+
+reg [3:0]addr0, addr1, addr2;
+reg [3:0] _out;
+
+always @ (posedge clk or posedge clr)
+   begin
+	if (clr) 
+		_out <= 0;
+	else 
+		_out = 0;
+		if (addr[0]) 
+			addr0 <= 15'b1111;
+		else 
+			addr0 <= 0;
+		if (addr[1]) 
+			addr1 <= 15'b1111;
+		else 
+			addr1 <= 0;
+		if (addr[2]) 
+			addr2 <= 15'b1111;
+		else 
+			addr2 <= 0; 
+		
+		_out = (in1 & ~addr2 & (~addr1) & (~addr0)) | (in2 & ~addr2 & ~addr1 & addr0)  | (in3 & ~addr2 & addr1 & ~addr0) | (in4 & ~addr2 & addr1 & addr0) | (in5 & addr2 & ~addr1 & ~addr0);
+		
+   end 
+assign out = _out;
+
+endmodule;

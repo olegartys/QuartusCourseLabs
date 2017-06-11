@@ -1,0 +1,113 @@
+# vsim work.flip_flop_testbench -l altera 
+# Start time: 10:37:55 on May 14,2017
+# Loading work.flip_flop_testbench
+# ** Error: (vsim-3033) /home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v(6): Instantiation of 'DFF' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flip_flop_testbench File: /home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v
+#         Searched libraries:
+#             /home/oleglevin/quartus_labs/soc_kr/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 10:37:55 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+pwd
+# /home/oleglevin/quartus_labs/soc_kr/simulation/modelsim
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 10:45:27 on May 14,2017
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module flip_flop_testbench
+# End time: 10:45:27 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 10:45:27 on May 14,2017
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module flip_flop_testbench
+# End time: 10:45:27 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.flip_flop_testbench
+# vsim work.flip_flop_testbench 
+# Start time: 10:45:29 on May 14,2017
+# Loading work.flip_flop_testbench
+# ** Error: (vsim-3033) /home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v(6): Instantiation of 'DFF' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flip_flop_testbench File: /home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v
+#         Searched libraries:
+#             /home/oleglevin/quartus_labs/soc_kr/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 10:45:29 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 10:47:17 on May 14,2017
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module flip_flop_testbench
+# End time: 10:47:17 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 10:47:17 on May 14,2017
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module flip_flop_testbench
+# End time: 10:47:17 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.flip_flop_testbench
+# vsim work.flip_flop_testbench 
+# Start time: 10:47:19 on May 14,2017
+# ** Error: (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 10:47:19 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim flip_flop_testbench
+# vsim flip_flop_testbench 
+# Start time: 10:47:42 on May 14,2017
+# ** Error: (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 10:47:42 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+ls
+# altera
+# flip_flop_testbench_bdf.vt
+# modelsim.ini
+# msim_transcript
+# rtl_work
+# soc_kr.sft
+# soc_kr.vo
+# soc_kr_modelsim.xrf
+# soc_kr_run_msim_rtl_verilog.do
+# soc_kr_run_msim_rtl_verilog.do.bak
+ls -l
+# total 60
+# -rw-rw-r-- 1 oleglevin oleglevin  3530 мая   14 10:48 altera
+# -rw-rw-r-- 1 oleglevin oleglevin  2986 мая   14 10:32 flip_flop_testbench_bdf.vt
+# -rw-rw-r-- 1 oleglevin oleglevin 10840 мая   14 10:47 modelsim.ini
+# -rw-rw-r-- 1 oleglevin oleglevin 13289 мая   14 10:37 msim_transcript
+# drwxrwxr-x 2 oleglevin oleglevin  4096 мая   14 10:47 rtl_work
+# -rw-rw-r-- 1 oleglevin oleglevin    42 мая   14 10:20 soc_kr.sft
+# -rw-rw-r-- 1 oleglevin oleglevin  2920 мая   14 10:20 soc_kr.vo
+# -rw-rw-r-- 1 oleglevin oleglevin   522 мая   14 10:20 soc_kr_modelsim.xrf
+# -rw-rw-r-- 1 oleglevin oleglevin   240 мая   14 10:33 soc_kr_run_msim_rtl_verilog.do
+# -rw-rw-r-- 1 oleglevin oleglevin   240 мая   14 10:20 soc_kr_run_msim_rtl_verilog.do.bak
+cd rtl_work
+# reading /home/oleglevin/altera_lite/16.0/modelsim_ase/linuxaloem/../modelsim.ini
+ls
+# _info
+# _lib.qdb
+# _lib1_0.qdb
+# _lib1_0.qpg
+# _lib1_0.qtl
+# _vmake
+cd ..
+# reading modelsim.ini
+vsim rtl_work.flip_flop_testbench
+# vsim rtl_work.flip_flop_testbench 
+# Start time: 10:50:37 on May 14,2017
+# Loading rtl_work.flip_flop_testbench
+# ** Error: (vsim-3033) /home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v(6): Instantiation of 'DFF' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flip_flop_testbench File: /home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v
+#         Searched libraries:
+#             /home/oleglevin/quartus_labs/soc_kr/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 10:50:37 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Loading project soc_kr_testbench_vsim

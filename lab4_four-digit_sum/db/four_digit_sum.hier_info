@@ -1,0 +1,61 @@
+|four_digit_sum
+s0 <= one_digit_sum:inst.s
+p0 => one_digit_sum:inst.p
+a0 => one_digit_sum:inst.a
+b0 => one_digit_sum:inst.b
+s1 <= one_digit_sum:inst4.s
+a1 => one_digit_sum:inst4.a
+b1 => one_digit_sum:inst4.b
+s2 <= one_digit_sum:inst5.s
+a2 => one_digit_sum:inst5.a
+b2 => one_digit_sum:inst5.b
+s3 <= one_digit_sum:inst6.s
+a3 => one_digit_sum:inst6.a
+b3 => one_digit_sum:inst6.b
+p3 <= one_digit_sum:inst6.p1
+
+
+|four_digit_sum|one_digit_sum:inst
+s <= inst.DB_MAX_OUTPUT_PORT_TYPE
+p => inst.IN0
+p => inst2.IN0
+a => inst1.IN0
+a => inst3.IN0
+b => inst1.IN1
+b => inst3.IN1
+p1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sum|one_digit_sum:inst4
+s <= inst.DB_MAX_OUTPUT_PORT_TYPE
+p => inst.IN0
+p => inst2.IN0
+a => inst1.IN0
+a => inst3.IN0
+b => inst1.IN1
+b => inst3.IN1
+p1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sum|one_digit_sum:inst5
+s <= inst.DB_MAX_OUTPUT_PORT_TYPE
+p => inst.IN0
+p => inst2.IN0
+a => inst1.IN0
+a => inst3.IN0
+b => inst1.IN1
+b => inst3.IN1
+p1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sum|one_digit_sum:inst6
+s <= inst.DB_MAX_OUTPUT_PORT_TYPE
+p => inst.IN0
+p => inst2.IN0
+a => inst1.IN0
+a => inst3.IN0
+b => inst1.IN1
+b => inst3.IN1
+p1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

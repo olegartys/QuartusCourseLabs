@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "inCtl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "inCtl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inCtl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outRes[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outRes[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outRes[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outRes[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outCarry",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "inBtn1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

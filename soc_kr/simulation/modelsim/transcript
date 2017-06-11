@@ -1,0 +1,32 @@
+# reading modelsim.ini
+# Loading project soc_kr_testbench_vsim
+# reading modelsim.ini
+# reading /home/oleglevin/altera_lite/16.0/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project kek
+# Compile of kek.v was successful.
+vsim work.flip_flop_testbench
+# vsim work.flip_flop_testbench 
+# Start time: 11:02:20 on May 14,2017
+# Loading work.flip_flop_testbench
+# ** Error: (vsim-3033) /tmp/kek.v(6): Instantiation of 'DFF' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flip_flop_testbench File: /tmp/kek.v
+#         Searched libraries:
+#             /tmp/work
+# Error loading design
+# End time: 11:02:20 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -work /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/libs/altera/verilog/altera -path {$MODEL_TECH/../altera/verilog/src/altera_primitives.v} /home/oleglevin/altera_lite/16.0/modelsim_ase/altera/verilog/src/altera_primitives.v
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 11:04:57 on May 14,2017
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/libs/altera/verilog/altera -path $MODEL_TECH/../altera/verilog/src/altera_primitives.v /home/oleglevin/altera_lite/16.0/modelsim_ase/altera/verilog/src/altera_primitives.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# End time: 11:04:57 on May 14,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/oleglevin/altera_lite/16.0/modelsim_ase/linuxaloem/vlog failed.
+vsim altera_ver.dff
+# vsim altera_ver.dff 
+# Start time: 11:05:11 on May 14,2017
+# Loading altera_ver.dff
+# Loading altera_ver.prim_gdff
+# End time: 11:05:20 on May 14,2017, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0

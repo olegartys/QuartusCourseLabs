@@ -1,0 +1,8 @@
+/home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v {1 {vlog -work work -stats=none /home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module flip_flop_testbench
+
+Top level modules:
+	flip_flop_testbench
+
+} {} {}}

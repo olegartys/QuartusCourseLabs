@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Apr 18 14:56:11 2017
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : pipemult
+Top-level Entity Name : pipemult
+Family : Cyclone III
+Total logic elements : 17
+    Total combinational functions : 1
+    Dedicated logic registers : 16
+Total registers : 16
+Total pins : 44
+Total virtual pins : 0
+Total memory bits : 512
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="pipemult_new">
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipemult2|mult:inst3|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_c9p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pipemult2|ram:inst6|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_qgq1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

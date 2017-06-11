@@ -1,0 +1,31 @@
+|block1
+pin_name3 <= soc_lab2:inst.f
+pin_name1 => soc_lab2:inst.x1
+pin_name1 => soc_lab2_2:inst2.x
+pin_name2 => soc_lab2:inst.x2
+pin_name2 => soc_lab2_2:inst2.y
+pin_name4 <= soc_lab2_2:inst2.f
+
+
+|block1|soc_lab2:inst
+x1 => f.IN0
+x1 => f.IN0
+x1 => f.IN0
+x2 => f.IN1
+x2 => f.IN1
+x3 => f.IN1
+x3 => f.IN1
+x4 => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|block1|soc_lab2_2:inst2
+x => Mult2.IN1
+x => Mult0.IN0
+y => Mult1.IN0
+y => Mult0.IN1
+z => Mult1.IN1
+z => Mult2.IN0
+f <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

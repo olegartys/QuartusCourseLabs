@@ -1,0 +1,30 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/oleglevin/quartus_labs/soc_kr/simulation/modelsim
+vflip_flop_testbench
+!i10b 1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!s100 IIgc3dS0Q0zASe]Na<jC?3
+I=1W2^GDj6eaAG:65P7Bh?1
+R0
+w1494746276
+8/home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v
+F/home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v
+L0 1
+OV;L;10.4d;61
+!s108 1494747190.000000
+!s107 /home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/oleglevin/quartus_labs/soc_kr|/home/oleglevin/quartus_labs/soc_kr/flip_flop_testbench.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/oleglevin/quartus_labs/soc_kr

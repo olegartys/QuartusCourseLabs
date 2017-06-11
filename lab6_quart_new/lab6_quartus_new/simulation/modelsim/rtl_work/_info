@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim
+vlab6_1
+!s110 1495200405
+!i10b 1
+!s100 :kdloGi1=U;z?a]?R_g[03
+I[bQD_3F=J_RK7H7=A37jS1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1495198503
+8/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v
+F/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v
+L0 1
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1495200405.000000
+!s107 /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new|/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new
+vtst_bnch
+!s110 1495200570
+!i10b 1
+!s100 RS_oE8]K0?WVGeV>gk>WR3
+Iz?D@AAdYVC=T@TB]z91OH3
+R1
+R0
+w1495200556
+8/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v
+F/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1495200570.000000
+!s107 /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v|
+!s90 -reportprogress|300|-work|work|/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v|
+!i113 1
+o-work work

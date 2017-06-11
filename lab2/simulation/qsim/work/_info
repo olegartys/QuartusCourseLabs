@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/oleglevin/quartus_labvs/lab2/simulation/qsim
+vlab2
+Z0 !s110 1487171737
+!i10b 1
+!s100 8BAcJ;jzfVD97R0N9=e:e0
+I7<P9j;@RH:d5fj@8C?8Yh3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/oleglevin/quartus_labs/lab2/simulation/qsim
+w1487171736
+8lab2.vo
+Flab2.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1487171736.000000
+!s107 lab2.vo|
+!s90 -work|work|lab2.vo|
+!i113 1
+Z4 o-work work
+vlab2_vlg_vec_tst
+R0
+!i10b 1
+!s100 =ZDZEEh3mXAD?<5gY;c3f2
+IF0e2bjYmOQUje2KNlHP0H0
+R1
+R2
+w1487171735
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1487171737.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4

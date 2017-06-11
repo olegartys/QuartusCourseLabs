@@ -1,0 +1,47 @@
+/home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1_test.v {2 {vlog -work work -stats=none /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1_test.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module lab_alu_v1_test
+** Warning: /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1_test.v(97): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+Top level modules:
+	lab_alu_v1_test
+
+} {} {}} /home/oleglevin/quartus_labs/soc_lab5/method_example2.v {1 {vlog -work work -stats=none /home/oleglevin/quartus_labs/soc_lab5/method_example2.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module ref_sum
+
+Top level modules:
+	ref_sum
+
+} {} {}} /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v {2 {vlog -work work -stats=none /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module lab_alu_v1
+** Warning: /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v(49): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling module alu_sum
+** Warning: /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v(62): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling module alu_mul
+** Warning: /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v(73): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling module alu_dec
+** Warning: /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v(83): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling module alu_retop
+** Warning: /home/oleglevin/quartus_labs/soc_lab5/lab_alu_v1.v(93): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+Top level modules:
+	lab_alu_v1
+
+} {} {}} /home/oleglevin/quartus_labs/soc_lab5/method_example_test.v {1 {vlog -work work -stats=none /home/oleglevin/quartus_labs/soc_lab5/method_example_test.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module test_sum
+
+Top level modules:
+	test_sum
+
+} {} {}} /home/oleglevin/quartus_labs/soc_lab5/method_example.v {1 {vlog -work work -stats=none /home/oleglevin/quartus_labs/soc_lab5/method_example.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module my_sum
+-- Compiling module bitsum
+
+Top level modules:
+	my_sum
+
+} {} {}}

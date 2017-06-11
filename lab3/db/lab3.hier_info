@@ -1,0 +1,17 @@
+|lab3
+pin_name1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+a0 => inst3.IN0
+a2 => inst.IN1
+a1 => inst4.IN0
+a3 => inst.IN3
+a6 => inst5.IN0
+a5 => inst.IN5
+a7 => inst6.IN0
+a4 => inst.IN7
+a8 => inst21.IN0
+a8 => inst20.IN0
+a9 => inst21.IN1
+a11 => inst24.IN0
+a10 => inst8.IN0
+
+

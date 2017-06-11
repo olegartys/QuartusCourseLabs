@@ -1,0 +1,99 @@
+# do lab6_new_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying /home/oleglevin/altera_lite/16.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new {/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:26:45 on May 19,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new" /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v 
+# -- Compiling module lab6_1
+# 
+# Top level modules:
+# 	lab6_1
+# End time: 16:26:45 on May 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:29:30 on May 19,2017
+# vlog -reportprogress 300 -work work /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v 
+# -- Compiling module tst_bnch
+# 
+# Top level modules:
+# 	tst_bnch
+# End time: 16:29:30 on May 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tst_bnch
+# vsim work.tst_bnch 
+# Start time: 16:29:38 on May 19,2017
+# Loading work.tst_bnch
+# Loading work.lab6_1
+# ** Warning: (vsim-3015) /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v(4): [PCDPC] - Port size (4) does not match connection size (1) for port 'currState'. The port definition is at: /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tst_bnch/t File: /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v
+add wave  \
+sim:/tst_bnch/t/out \
+sim:/tst_bnch/t/currState \
+sim:/tst_bnch/t/clk \
+sim:/tst_bnch/t/StateA \
+sim:/tst_bnch/t/StateB \
+sim:/tst_bnch/t/StateC \
+sim:/tst_bnch/t/StateD \
+sim:/tst_bnch/t/StateE \
+sim:/tst_bnch/t/StateF \
+sim:/tst_bnch/t/StateG \
+sim:/tst_bnch/t/StateH \
+sim:/tst_bnch/t/StateI \
+sim:/tst_bnch/t/w \
+sim:/tst_bnch/t/front \
+sim:/tst_bnch/t/reset \
+sim:/tst_bnch/t/reset_sec_count
+vsim work.tst_bnch
+# End time: 16:30:00 on May 19,2017, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 1
+# vsim work.tst_bnch 
+# Start time: 16:30:00 on May 19,2017
+# Loading work.tst_bnch
+# Loading work.lab6_1
+# ** Warning: (vsim-3015) /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v(4): [PCDPC] - Port size (4) does not match connection size (1) for port 'currState'. The port definition is at: /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tst_bnch/t File: /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v
+run -all
+add wave -position end sim:/tst_bnch/t/*
+# Break key hit
+# Simulation stop requested.
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+vsim work.tst_bnch
+# End time: 16:31:35 on May 19,2017, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 1
+# vsim work.tst_bnch 
+# Start time: 16:31:35 on May 19,2017
+# Loading work.tst_bnch
+# Loading work.lab6_1
+# ** Warning: (vsim-3015) /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v(4): [PCDPC] - Port size (4) does not match connection size (1) for port 'currState'. The port definition is at: /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tst_bnch/t File: /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v
+add wave -position insertpoint sim:/tst_bnch/t/*
+# Break key hit
+vsim work.tst_bnch
+# End time: 16:32:08 on May 19,2017, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 1
+# vsim work.tst_bnch 
+# Start time: 16:32:08 on May 19,2017
+# Loading work.tst_bnch
+# Loading work.lab6_1
+# ** Warning: (vsim-3015) /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/simulation/modelsim/tst_bnch.v(4): [PCDPC] - Port size (4) does not match connection size (1) for port 'currState'. The port definition is at: /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tst_bnch/t File: /home/oleglevin/quartus_labs/lab6_quart_new/lab6_quartus_new/lab6_1.v
+add wave sim:/tst_bnch/*
+# Load canceled
+run -all

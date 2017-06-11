@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, /home/oleglevin/quartus_labs/one_digit_sum.bdf
+source_file = 1, /home/oleglevin/quartus_labs/lab4_one-digit_sub/one_digit_sub.bdf
+source_file = 1, /home/oleglevin/quartus_labs/lab4_one-digit_sub/Waveform.vwf
+source_file = 1, /home/oleglevin/quartus_labs/lab4_one-digit_sub/db/one_digit_sub.cbx.xml
+design_name = one_digit_sub
+instance = comp, \diff~output , diff~output, one_digit_sub, 1
+instance = comp, \bor~output , bor~output, one_digit_sub, 1
+instance = comp, \b~input , b~input, one_digit_sub, 1
+instance = comp, \p~input , p~input, one_digit_sub, 1
+instance = comp, \a~input , a~input, one_digit_sub, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, one_digit_sub, 1

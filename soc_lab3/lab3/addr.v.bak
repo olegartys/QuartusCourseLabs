@@ -1,0 +1,17 @@
+module addr(out, in_btn);
+
+output reg [2:0] out;
+input in_btn;
+
+reg [3:0] tmp = 0;
+
+
+always @ (in_btn)
+	begin
+		if (tmp < 6) 
+			tmp = tmp + 1;
+		else 
+			tmp = 0;
+		out = tmp;
+	
+	end

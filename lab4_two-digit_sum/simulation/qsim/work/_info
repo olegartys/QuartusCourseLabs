@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/oleglevin/quartus_labs/lab4_two-digit_sum/simulation/qsim
+vtwo_digit_sum
+Z1 !s110 1490000477
+!i10b 1
+!s100 hW71W:m3cAf7ACeUE?=l@2
+I7Ke2:W==BHJnUH`X:LTUZ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1490000476
+8two_digit_sum.vo
+Ftwo_digit_sum.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1490000477.000000
+!s107 two_digit_sum.vo|
+!s90 -work|work|two_digit_sum.vo|
+!i113 1
+Z5 o-work work
+vtwo_digit_sum_vlg_vec_tst
+R1
+!i10b 1
+!s100 `YSeXbYVmm:X3m0:4CC]e3
+IH]eRC`>mha`1YZ[UUUo4[3
+R2
+R0
+w1490000474
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5

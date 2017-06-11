@@ -1,0 +1,21 @@
+vsim -t ns work.lab6_1
+# vsim -t ns work.lab6_1 
+# Start time: 22:51:46 on Apr 27,2017
+# Loading work.lab6_1
+add wave  \
+sim:/lab6_1/State0 \
+sim:/lab6_1/State1 \
+sim:/lab6_1/State2 \
+sim:/lab6_1/State3 \
+sim:/lab6_1/State4 \
+sim:/lab6_1/State5 \
+sim:/lab6_1/State6 \
+sim:/lab6_1/State7 \
+sim:/lab6_1/State8 \
+sim:/lab6_1/State9 \
+sim:/lab6_1/out \
+sim:/lab6_1/x \
+sim:/lab6_1/clk \
+sim:/lab6_1/currState
+do /home/eninng/HSE/modelsimlabs/lab6/lab6_2/Stim.do
+run -all

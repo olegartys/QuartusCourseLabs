@@ -1,0 +1,31 @@
+# do first_prj.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:11:01 on Jan 19,2017
+# vlog -work work first_prj.vo 
+# -- Compiling module first_prj
+# 
+# Top level modules:
+# 	first_prj
+# End time: 23:11:01 on Jan 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:11:01 on Jan 19,2017
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module first_prj_vlg_vec_tst
+# 
+# Top level modules:
+# 	first_prj_vlg_vec_tst
+# End time: 23:11:01 on Jan 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.first_prj_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 23:11:01 on Jan 19,2017
+# Loading work.first_prj_vlg_vec_tst
+# Loading work.first_prj
+# ** Warning: (vsim-3017) first_prj.vo(173): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /first_prj_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC1~  File: nofile
+# ** Warning: (vsim-3722) first_prj.vo(173): [TFMPC] - Missing connection for port 'clk_dft'.
+# ** Note: $finish    : Waveform.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /first_prj_vlg_vec_tst
+# End time: 23:11:03 on Jan 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 2

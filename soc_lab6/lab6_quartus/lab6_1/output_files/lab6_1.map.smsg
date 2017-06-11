@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at reset.v(9): always construct contains both blocking and non-blocking assignments File: /home/oleglevin/quartus_labs/soc_lab6/lab6_quartus/lab6_1/reset.v Line: 9
+Warning (10268): Verilog HDL information at out_w.v(9): always construct contains both blocking and non-blocking assignments File: /home/oleglevin/quartus_labs/soc_lab6/lab6_quartus/lab6_1/out_w.v Line: 9

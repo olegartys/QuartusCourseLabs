@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/oleglevin/quartus_labs/one_digit_sum.bdf
+source_file = 1, /home/oleglevin/quartus_labs/two_digit_sum.bdf
+source_file = 1, /home/oleglevin/quartus_labs/lab4_two-digit_sum/db/two_digit_sum.cbx.xml
+design_name = two_digit_sum
+instance = comp, \s0~output , s0~output, two_digit_sum, 1
+instance = comp, \s1~output , s1~output, two_digit_sum, 1
+instance = comp, \p1~output , p1~output, two_digit_sum, 1
+instance = comp, \p~input , p~input, two_digit_sum, 1
+instance = comp, \a0~input , a0~input, two_digit_sum, 1
+instance = comp, \b0~input , b0~input, two_digit_sum, 1
+instance = comp, \inst|inst , inst|inst, two_digit_sum, 1
+instance = comp, \a1~input , a1~input, two_digit_sum, 1
+instance = comp, \b1~input , b1~input, two_digit_sum, 1
+instance = comp, \inst1|inst , inst1|inst, two_digit_sum, 1
+instance = comp, \inst1|inst4 , inst1|inst4, two_digit_sum, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, two_digit_sum, 1

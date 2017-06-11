@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/eninng/HSE/modelsimlabs/lab6
+vlab6_1
+!s110 1493233688
+!i10b 1
+!s100 `U7gQokEzi:6oDhPOC9Wd0
+Ik8b26bMe_FUb6[6hVFUPe1
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/eninng/HSE/modelsimlabs/lab6/lab6_2
+w1493233684
+8/home/eninng/HSE/modelsimlabs/lab6/lab6_2/lab6_2.v
+F/home/eninng/HSE/modelsimlabs/lab6/lab6_2/lab6_2.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1493233688.000000
+!s107 /home/eninng/HSE/modelsimlabs/lab6/lab6_2/lab6_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/eninng/HSE/modelsimlabs/lab6/lab6_2/lab6_2.v|
+!i113 1
+o-work work
+tCvgOpt 0

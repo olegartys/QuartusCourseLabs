@@ -1,0 +1,230 @@
+<internal_error>
+	<executable>quartus</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0xfffffffff69a1aed: gdiuser32 + 0xfdaed (_ZN15FontDrawCharset5bInitEP11tagLOGFONTA + 0x22d)
+	0xfffffffff69a310f: gdiuser32 + 0xff10f (_ZN9fontcache14GetNewFontDrawEP11tagLOGFONTAP8tagXFORMimm + 0x21f)
+	0xfffffffff69a33a7: gdiuser32 + 0xff3a7 (_ZN9fontcache20FindOrCreateFontDrawEP8tagXFORMP5CW_DCP11tagLOGFONTA + 0x197)
+	0xfffffffff69a356f: gdiuser32 + 0xff56f (_ZN9fontcache20FindOrCreateFontDrawEP5CW_DCP11tagLOGFONTA + 0xbf)
+	0xfffffffff69a5e32: gdiuser32 + 0x101e32 (_ZN9fontcache10EnumFontsAEP5CW_DCP11tagLOGFONTAPFiPKS2_PK14tagTEXTMETRICAmlEli + 0x432)
+	0xfffffffff69a73b3: gdiuser32 + 0x1033b3 (MwEnumFontsTT + 0x43)
+	0xfffffffff69685c2: gdiuser32 + 0xc45c2 (EnumFontFamiliesExA + 0x132)
+	0xffffffffef6f9fde: og903as + 0x26afde (_ZN13GX_FONT_STATEC1Ev + 0x2ce)
+	0xffffffffef56c285: og903as + 0xdd285 (_ZN12GX_APP_STATEC1Ev + 0xd5)
+	0xffffffffef56d290: og903as + 0xde290 (_Z13GXGetAppStatev + 0x90)
+	0xffffffffef5ab3c1: og903as + 0x11c3c1 (_Z6GXInitjP25CGXAbstractControlFactoryPKcS2_ + 0x21)
+	0xffffffffef56e4c6: og903as + 0xdf4c6 (_Z6GXInitjPKcS0_ + 0x46)
+	0xffffffffef450b8f: edt_med + 0x69b8f (edt_med_DllMain + 0x327)
+	0xffffffffef47cfe3: edt_med + 0x95fe3 (Mw___edt_5fmed_wrapDllMain + 0x2b)
+	0xfffffffff6704eb1: kernel32 + 0xe8eb1 (MwDllInPostConstruct + 0x71)
+	0xffffffffef47d428: edt_med + 0x96428 (_ZN21_Initializeredt_5fmed9constructEv + 0x22)
+	0xffffffffef47d17a: edt_med + 0x9617a (_ZN21_Initializeredt_5fmedC1Ev + 0x9a)
+	0xffffffffef47d4cb: edt_med + 0x964cb (_Z41__static_initialization_and_destruction_0ii + 0x41)
+	0xffffffffef47d512: edt_med + 0x96512 (_GLOBAL__I__ZN21_Initializeredt_5fmed3refE + 0x1a)
+	0xffffffffef47d605: edt_med + 0x96605
+	0xffffffffef418651: edt_med + 0x31651
+	0xfffffffff7758d17: ld-linux.so.2 + 0xed17
+	0xfffffffff7758e44: ld-linux.so.2 + 0xee44
+	0xfffffffff775ce4e: ld-linux.so.2 + 0x12e4e
+	0xfffffffff7758c06: ld-linux.so.2 + 0xec06
+	0xfffffffff775c644: ld-linux.so.2 + 0x12644
+	0xfffffffff5640cbc: dl.so.2 + 0xcbc
+	0xfffffffff7758c06: ld-linux.so.2 + 0xec06
+	0xfffffffff564137c: dl.so.2 + 0x137c
+	0xfffffffff5640d71: dl.so.2 + 0xd71 (dlopen + 0x41)
+	0xfffffffff67076ae: kernel32 + 0xeb6ae (_Z15UnixLoadLibraryP11CW_Instance + 0x5e)
+	0xfffffffff6706710: kernel32 + 0xea710 (_Z14MwILoadLibraryPKcii + 0xb0)
+	0xfffffffff6706875: kernel32 + 0xea875 (LoadLibraryA + 0x35)
+	0xfffffffff70dec0e: mfc400s + 0xb1c0e (_Z14AfxLoadLibraryPKc + 0x2e)
+	0x092d5183: quartus + 0x128d183 (afc_load_library + 0x1d)
+	0xfffffffff772a86d: ccl_thr_win32 + 0x1086d (thr_drl_native_load + 0x43)
+	0xfffffffff772b3d2: ccl_thr_win32 + 0x113d2 (thr_drl_load_internal + 0x76)
+	0xfffffffff772b661: ccl_thr_win32 + 0x11661 (thr_drl_load + 0xba)
+	0x092b86d8: quartus + 0x12706d8 (_ZN20AFC_TEMPLATE_MANAGER13load_templateEPK12AFC_DOC_INFO + 0x6d8)
+	0x092b9b1b: quartus + 0x1271b1b (_ZN20AFC_TEMPLATE_MANAGER19create_new_documentEPK12AFC_DOC_INFOP21AFC_PROJECT_STATE_MAPb + 0x235)
+	0x092b55b3: quartus + 0x126d5b3 (_ZN20AFC_TEMPLATE_MANAGER20on_file_new_overrideEN11AFC_NEW_DLG17DOCUMENT_CATEGORYE + 0x2e9)
+	0x092b52c7: quartus + 0x126d2c7 (_ZN20AFC_TEMPLATE_MANAGER9OnFileNewEv + 0x19)
+	0xfffffffff715d15d: mfc400s + 0x13015d (_ZN7CWinApp9OnFileNewEv + 0x1d)
+	0x092d9e47: quartus + 0x1291e47 (_ZN7AFC_APP11on_file_newEv + 0x1d)
+	0xfffffffff713e977: mfc400s + 0x111977 (_Z18_AfxDispatchCmdMsgP10CCmdTargetjiMS_FvvEPvjP18AFX_CMDHANDLERINFO + 0x237)
+	0xfffffffff713ea77: mfc400s + 0x111a77 (_ZN10CCmdTarget8OnCmdMsgEjiPvP18AFX_CMDHANDLERINFO + 0xc7)
+	0x092d9be6: quartus + 0x1291be6 (_ZN7AFC_APP8OnCmdMsgEjiPvP18AFX_CMDHANDLERINFO + 0x44)
+	0xfffffffff70ff1fc: mfc400s + 0xd21fc (_ZN9CFrameWnd8OnCmdMsgEjiPvP18AFX_CMDHANDLERINFO + 0xbc)
+	0xfffffffff70fb8e5: mfc400s + 0xce8e5 (_ZN4CWnd9OnCommandEjl + 0xb5)
+	0xfffffffff70fddf9: mfc400s + 0xd0df9 (_ZN9CFrameWnd9OnCommandEjl + 0x69)
+	0xfffffffff70f83cf: mfc400s + 0xcb3cf (_ZN4CWnd8OnWndMsgEjjlPl + 0x2cf)
+	0x092cdfcd: quartus + 0x1285fcd (_ZN15AFC_CHILD_FRAME8OnWndMsgEjjlPl + 0x8f)
+	0xfffffffff70f7d59: mfc400s + 0xcad59 (_ZN4CWnd10WindowProcEjjl + 0x39)
+	0xfffffffff70fc623: mfc400s + 0xcf623 (_Z14AfxCallWndProcP4CWndP6HWND__jjl + 0xc3)
+	0xfffffffff75cb153: ot803as + 0x268153 (_ZN14SECMDIFrameWnd9OnCommandEjl + 0x53)
+	0x092e4a30: quartus + 0x129ca30 (_ZN13AFC_MDI_FRAME9OnCommandEjl + 0x42)
+	0xfffffffff70f83cf: mfc400s + 0xcb3cf (_ZN4CWnd8OnWndMsgEjjlPl + 0x2cf)
+	0x0895d153: quartus + 0x915153 (_ZN14PJM_MAIN_FRAME8OnWndMsgEjjlPl + 0x85)
+	0xfffffffff70f7d59: mfc400s + 0xcad59 (_ZN4CWnd10WindowProcEjjl + 0x39)
+	0xfffffffff75cc014: ot803as + 0x269014 (_ZN14SECMDIFrameWnd10WindowProcEjjl + 0x64)
+	0xfffffffff70fc623: mfc400s + 0xcf623 (_Z14AfxCallWndProcP4CWndP6HWND__jjl + 0xc3)
+	0xfffffffff70fd0c3: mfc400s + 0xd00c3 (_Z10AfxWndProcP6HWND__jjl + 0x53)
+	0xfffffffff70f4e9b: mfc400s + 0xc7e9b (_Z14AfxWndProcBaseP6HWND__jjl + 0x5b)
+	0xfffffffff6a24a51: gdiuser32 + 0x180a51 (MwCallCallWndProc + 0x171)
+	0xfffffffff6a305ca: gdiuser32 + 0x18c5ca (MwICallWindowProc + 0x7a)
+	0xfffffffff6a3ca56: gdiuser32 + 0x198a56 (CallWindowProcA + 0x66)
+	0x08970e87: quartus + 0x928e87 (_ZN12CSubclassWnd10WindowProcEjjl + 0x9f)
+	0x0896e711: quartus + 0x926711 (_ZN16CCoolMenuManager10WindowProcEjjl + 0x199)
+	0x08970fc5: quartus + 0x928fc5 (_Z11HookWndProcP6HWND__jjl + 0xf1)
+	0xfffffffff6a24a51: gdiuser32 + 0x180a51 (MwCallCallWndProc + 0x171)
+	0xfffffffff6a317e5: gdiuser32 + 0x18d7e5 (MwInternalSendMessage + 0x45)
+	0xfffffffff6a37a8e: gdiuser32 + 0x193a8e (xxxSendMessageTimeout + 0x27e)
+	0xfffffffff6a37bf3: gdiuser32 + 0x193bf3 (MwISendMessageTimeout + 0xc3)
+	0xfffffffff6a37d2c: gdiuser32 + 0x193d2c (SendMessageTimeoutA + 0x6c)
+	0xfffffffff6a37d94: gdiuser32 + 0x193d94 (SendMessageA + 0x44)
+	0xfffffffff75f7c27: ot803as + 0x294c27 (_ZN16SECCustomToolBar11OnLButtonUpEj6CPoint + 0x197)
+	0xfffffffff70f8c20: mfc400s + 0xcbc20 (_ZN4CWnd8OnWndMsgEjjlPl + 0xb20)
+	0x092e75e3: quartus + 0x129f5e3 (_ZN12AFC_TOOL_BAR8OnWndMsgEjjlPl + 0x41)
+	0xfffffffff70f7d59: mfc400s + 0xcad59 (_ZN4CWnd10WindowProcEjjl + 0x39)
+	0xfffffffff7109e54: mfc400s + 0xdce54 (_ZN11CControlBar10WindowProcEjjl + 0x54)
+	0xfffffffff70fc623: mfc400s + 0xcf623 (_Z14AfxCallWndProcP4CWndP6HWND__jjl + 0xc3)
+	0xfffffffff70fd0c3: mfc400s + 0xd00c3 (_Z10AfxWndProcP6HWND__jjl + 0x53)
+	0xfffffffff70f4e9b: mfc400s + 0xc7e9b (_Z14AfxWndProcBaseP6HWND__jjl + 0x5b)
+	0xfffffffff6a91be9: gdiuser32 + 0x1edbe9 (_ZNK19Direct_Win_Msg_FuncclEPK6tagMSG + 0x29)
+	0xfffffffff6a943d4: gdiuser32 + 0x1f03d4 (_Z15wcs2mbs_win_msgRK15Win_Msg_ContextPK6tagMSG + 0x144)
+	0xfffffffff6a94f62: gdiuser32 + 0x1f0f62 (MwMessageAnsiConvert + 0x42)
+	0xfffffffff6a24964: gdiuser32 + 0x180964 (MwCallCallWndProc + 0x84)
+	0xfffffffff6a31891: gdiuser32 + 0x18d891 (MwIDispatchMessage + 0xa1)
+	0xfffffffff6a92aba: gdiuser32 + 0x1eeaba (DispatchMessageW + 0x4a)
+	0xfffffffff69b7f45: gdiuser32 + 0x113f45 (IsDialogMessageW + 0xd5)
+	0xfffffffff69b847e: gdiuser32 + 0x11447e (IsDialogMessageA + 0x5e)
+	0xfffffffff713cd7f: mfc400s + 0x10fd7f (_ZN4CWnd16IsDialogMessageAEP6tagMSG + 0x5f)
+	0xfffffffff70fa915: mfc400s + 0xcd915 (_ZN4CWnd17PreTranslateInputEP6tagMSG + 0x55)
+	0xfffffffff7109bda: mfc400s + 0xdcbda (_ZN11CControlBar19PreTranslateMessageEP6tagMSG + 0xfa)
+	0xfffffffff70f9cb0: mfc400s + 0xcccb0 (_ZN4CWnd20WalkPreTranslateTreeEP6HWND__P6tagMSG + 0x40)
+	0xfffffffff7158d63: mfc400s + 0x12bd63 (_ZN10CWinThread19PreTranslateMessageEP6tagMSG + 0x73)
+	0x092dd983: quartus + 0x1295983 (_ZN7AFC_APP19PreTranslateMessageEP6tagMSG + 0x29)
+	0xfffffffff7158fc5: mfc400s + 0x12bfc5 (_ZN10CWinThread11PumpMessageEv + 0x55)
+	0xfffffffff7158aea: mfc400s + 0x12baea (_ZN10CWinThread3RunEv + 0x8a)
+	0xfffffffff715ab59: mfc400s + 0x12db59 (_ZN7CWinApp3RunEv + 0x29)
+	</callstack>
+	<error>Current editor: STED, GED</error>
+	<date>Tue Apr 18 12:46:15 2017</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Segment Violation at 0x28
+Current editor: STED, GED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0xfffffffff6a18aed: gdiuser32 + 0xfdaed (_ZN15FontDrawCharset5bInitEP11tagLOGFONTA + 0x22d)
+	0xfffffffff6a1a10f: gdiuser32 + 0xff10f (_ZN9fontcache14GetNewFontDrawEP11tagLOGFONTAP8tagXFORMimm + 0x21f)
+	0xfffffffff6a1a3a7: gdiuser32 + 0xff3a7 (_ZN9fontcache20FindOrCreateFontDrawEP8tagXFORMP5CW_DCP11tagLOGFONTA + 0x197)
+	0xfffffffff6a1a56f: gdiuser32 + 0xff56f (_ZN9fontcache20FindOrCreateFontDrawEP5CW_DCP11tagLOGFONTA + 0xbf)
+	0xfffffffff6a1ce32: gdiuser32 + 0x101e32 (_ZN9fontcache10EnumFontsAEP5CW_DCP11tagLOGFONTAPFiPKS2_PK14tagTEXTMETRICAmlEli + 0x432)
+	0xfffffffff6a1e3b3: gdiuser32 + 0x1033b3 (MwEnumFontsTT + 0x43)
+	0xfffffffff69df5c2: gdiuser32 + 0xc45c2 (EnumFontFamiliesExA + 0x132)
+	0xffffffffeff46fde: og903as + 0x26afde (_ZN13GX_FONT_STATEC1Ev + 0x2ce)
+	0xffffffffefdb9285: og903as + 0xdd285 (_ZN12GX_APP_STATEC1Ev + 0xd5)
+	0xffffffffefdba290: og903as + 0xde290 (_Z13GXGetAppStatev + 0x90)
+	0xffffffffefdf83c1: og903as + 0x11c3c1 (_Z6GXInitjP25CGXAbstractControlFactoryPKcS2_ + 0x21)
+	0xffffffffefdbb4c6: og903as + 0xdf4c6 (_Z6GXInitjPKcS0_ + 0x46)
+	0xffffffffefc9db8f: edt_med + 0x69b8f (edt_med_DllMain + 0x327)
+	0xffffffffefcc9fe3: edt_med + 0x95fe3 (Mw___edt_5fmed_wrapDllMain + 0x2b)
+	0xfffffffff677beb1: kernel32 + 0xe8eb1 (MwDllInPostConstruct + 0x71)
+	0xffffffffefcca428: edt_med + 0x96428 (_ZN21_Initializeredt_5fmed9constructEv + 0x22)
+	0xffffffffefcca17a: edt_med + 0x9617a (_ZN21_Initializeredt_5fmedC1Ev + 0x9a)
+	0xffffffffefcca4cb: edt_med + 0x964cb (_Z41__static_initialization_and_destruction_0ii + 0x41)
+	0xffffffffefcca512: edt_med + 0x96512 (_GLOBAL__I__ZN21_Initializeredt_5fmed3refE + 0x1a)
+	0xffffffffefcca605: edt_med + 0x96605
+	0xffffffffefc65651: edt_med + 0x31651
+	0xfffffffff77cfd17: ld-linux.so.2 + 0xed17
+	0xfffffffff77cfe44: ld-linux.so.2 + 0xee44
+	0xfffffffff77d3e4e: ld-linux.so.2 + 0x12e4e
+	0xfffffffff77cfc06: ld-linux.so.2 + 0xec06
+	0xfffffffff77d3644: ld-linux.so.2 + 0x12644
+	0xfffffffff56b7cbc: dl.so.2 + 0xcbc
+	0xfffffffff77cfc06: ld-linux.so.2 + 0xec06
+	0xfffffffff56b837c: dl.so.2 + 0x137c
+	0xfffffffff56b7d71: dl.so.2 + 0xd71 (dlopen + 0x41)
+	0xfffffffff677e6ae: kernel32 + 0xeb6ae (_Z15UnixLoadLibraryP11CW_Instance + 0x5e)
+	0xfffffffff677d710: kernel32 + 0xea710 (_Z14MwILoadLibraryPKcii + 0xb0)
+	0xfffffffff677d875: kernel32 + 0xea875 (LoadLibraryA + 0x35)
+	0xfffffffff7155c0e: mfc400s + 0xb1c0e (_Z14AfxLoadLibraryPKc + 0x2e)
+	0x092d5183: quartus + 0x128d183 (afc_load_library + 0x1d)
+	0xfffffffff77a186d: ccl_thr_win32 + 0x1086d (thr_drl_native_load + 0x43)
+	0xfffffffff77a23d2: ccl_thr_win32 + 0x113d2 (thr_drl_load_internal + 0x76)
+	0xfffffffff77a2661: ccl_thr_win32 + 0x11661 (thr_drl_load + 0xba)
+	0x092b86d8: quartus + 0x12706d8 (_ZN20AFC_TEMPLATE_MANAGER13load_templateEPK12AFC_DOC_INFO + 0x6d8)
+	0x092b9b1b: quartus + 0x1271b1b (_ZN20AFC_TEMPLATE_MANAGER19create_new_documentEPK12AFC_DOC_INFOP21AFC_PROJECT_STATE_MAPb + 0x235)
+	0x092b55b3: quartus + 0x126d5b3 (_ZN20AFC_TEMPLATE_MANAGER20on_file_new_overrideEN11AFC_NEW_DLG17DOCUMENT_CATEGORYE + 0x2e9)
+	0x092b52c7: quartus + 0x126d2c7 (_ZN20AFC_TEMPLATE_MANAGER9OnFileNewEv + 0x19)
+	0xfffffffff71d415d: mfc400s + 0x13015d (_ZN7CWinApp9OnFileNewEv + 0x1d)
+	0x092d9e47: quartus + 0x1291e47 (_ZN7AFC_APP11on_file_newEv + 0x1d)
+	0xfffffffff71b5977: mfc400s + 0x111977 (_Z18_AfxDispatchCmdMsgP10CCmdTargetjiMS_FvvEPvjP18AFX_CMDHANDLERINFO + 0x237)
+	0xfffffffff71b5a77: mfc400s + 0x111a77 (_ZN10CCmdTarget8OnCmdMsgEjiPvP18AFX_CMDHANDLERINFO + 0xc7)
+	0x092d9be6: quartus + 0x1291be6 (_ZN7AFC_APP8OnCmdMsgEjiPvP18AFX_CMDHANDLERINFO + 0x44)
+	0xfffffffff71761fc: mfc400s + 0xd21fc (_ZN9CFrameWnd8OnCmdMsgEjiPvP18AFX_CMDHANDLERINFO + 0xbc)
+	0xfffffffff764236e: ot803as + 0x26836e (_ZN14SECMDIFrameWnd8OnCmdMsgEjiPvP18AFX_CMDHANDLERINFO + 0x16e)
+	0xfffffffff71728e5: mfc400s + 0xce8e5 (_ZN4CWnd9OnCommandEjl + 0xb5)
+	0xfffffffff7174df9: mfc400s + 0xd0df9 (_ZN9CFrameWnd9OnCommandEjl + 0x69)
+	0xfffffffff764216f: ot803as + 0x26816f (_ZN14SECMDIFrameWnd9OnCommandEjl + 0x6f)
+	0x092e4a30: quartus + 0x129ca30 (_ZN13AFC_MDI_FRAME9OnCommandEjl + 0x42)
+	0xfffffffff716f3cf: mfc400s + 0xcb3cf (_ZN4CWnd8OnWndMsgEjjlPl + 0x2cf)
+	0x0895d153: quartus + 0x915153 (_ZN14PJM_MAIN_FRAME8OnWndMsgEjjlPl + 0x85)
+	0xfffffffff716ed59: mfc400s + 0xcad59 (_ZN4CWnd10WindowProcEjjl + 0x39)
+	0xfffffffff7643014: ot803as + 0x269014 (_ZN14SECMDIFrameWnd10WindowProcEjjl + 0x64)
+	0xfffffffff7173623: mfc400s + 0xcf623 (_Z14AfxCallWndProcP4CWndP6HWND__jjl + 0xc3)
+	0xfffffffff71740c3: mfc400s + 0xd00c3 (_Z10AfxWndProcP6HWND__jjl + 0x53)
+	0xfffffffff716be9b: mfc400s + 0xc7e9b (_Z14AfxWndProcBaseP6HWND__jjl + 0x5b)
+	0xfffffffff6a9ba51: gdiuser32 + 0x180a51 (MwCallCallWndProc + 0x171)
+	0xfffffffff6aa75ca: gdiuser32 + 0x18c5ca (MwICallWindowProc + 0x7a)
+	0xfffffffff6ab3a56: gdiuser32 + 0x198a56 (CallWindowProcA + 0x66)
+	0x08970e87: quartus + 0x928e87 (_ZN12CSubclassWnd10WindowProcEjjl + 0x9f)
+	0x0896e711: quartus + 0x926711 (_ZN16CCoolMenuManager10WindowProcEjjl + 0x199)
+	0x08970fc5: quartus + 0x928fc5 (_Z11HookWndProcP6HWND__jjl + 0xf1)
+	0xfffffffff6a9ba51: gdiuser32 + 0x180a51 (MwCallCallWndProc + 0x171)
+	0xfffffffff6aa87e5: gdiuser32 + 0x18d7e5 (MwInternalSendMessage + 0x45)
+	0xfffffffff6aaea8e: gdiuser32 + 0x193a8e (xxxSendMessageTimeout + 0x27e)
+	0xfffffffff6aaebf3: gdiuser32 + 0x193bf3 (MwISendMessageTimeout + 0xc3)
+	0xfffffffff6aaed2c: gdiuser32 + 0x193d2c (SendMessageTimeoutA + 0x6c)
+	0xfffffffff6aaed94: gdiuser32 + 0x193d94 (SendMessageA + 0x44)
+	0xfffffffff766ec27: ot803as + 0x294c27 (_ZN16SECCustomToolBar11OnLButtonUpEj6CPoint + 0x197)
+	0xfffffffff716fc20: mfc400s + 0xcbc20 (_ZN4CWnd8OnWndMsgEjjlPl + 0xb20)
+	0x092e75e3: quartus + 0x129f5e3 (_ZN12AFC_TOOL_BAR8OnWndMsgEjjlPl + 0x41)
+	0xfffffffff716ed59: mfc400s + 0xcad59 (_ZN4CWnd10WindowProcEjjl + 0x39)
+	0xfffffffff7180e54: mfc400s + 0xdce54 (_ZN11CControlBar10WindowProcEjjl + 0x54)
+	0xfffffffff7173623: mfc400s + 0xcf623 (_Z14AfxCallWndProcP4CWndP6HWND__jjl + 0xc3)
+	0xfffffffff71740c3: mfc400s + 0xd00c3 (_Z10AfxWndProcP6HWND__jjl + 0x53)
+	0xfffffffff716be9b: mfc400s + 0xc7e9b (_Z14AfxWndProcBaseP6HWND__jjl + 0x5b)
+	0xfffffffff6b08be9: gdiuser32 + 0x1edbe9 (_ZNK19Direct_Win_Msg_FuncclEPK6tagMSG + 0x29)
+	0xfffffffff6b0b3d4: gdiuser32 + 0x1f03d4 (_Z15wcs2mbs_win_msgRK15Win_Msg_ContextPK6tagMSG + 0x144)
+	0xfffffffff6b0bf62: gdiuser32 + 0x1f0f62 (MwMessageAnsiConvert + 0x42)
+	0xfffffffff6a9b964: gdiuser32 + 0x180964 (MwCallCallWndProc + 0x84)
+	0xfffffffff6aa8891: gdiuser32 + 0x18d891 (MwIDispatchMessage + 0xa1)
+	0xfffffffff6b09aba: gdiuser32 + 0x1eeaba (DispatchMessageW + 0x4a)
+	0xfffffffff6a2ef45: gdiuser32 + 0x113f45 (IsDialogMessageW + 0xd5)
+	0xfffffffff6a2f47e: gdiuser32 + 0x11447e (IsDialogMessageA + 0x5e)
+	0xfffffffff71b3d7f: mfc400s + 0x10fd7f (_ZN4CWnd16IsDialogMessageAEP6tagMSG + 0x5f)
+	0xfffffffff7171915: mfc400s + 0xcd915 (_ZN4CWnd17PreTranslateInputEP6tagMSG + 0x55)
+	0xfffffffff7180bda: mfc400s + 0xdcbda (_ZN11CControlBar19PreTranslateMessageEP6tagMSG + 0xfa)
+	0xfffffffff7170cb0: mfc400s + 0xcccb0 (_ZN4CWnd20WalkPreTranslateTreeEP6HWND__P6tagMSG + 0x40)
+	0xfffffffff71cfd63: mfc400s + 0x12bd63 (_ZN10CWinThread19PreTranslateMessageEP6tagMSG + 0x73)
+	0x092dd983: quartus + 0x1295983 (_ZN7AFC_APP19PreTranslateMessageEP6tagMSG + 0x29)
+	0xfffffffff71cffc5: mfc400s + 0x12bfc5 (_ZN10CWinThread11PumpMessageEv + 0x55)
+	0xfffffffff71cfaea: mfc400s + 0x12baea (_ZN10CWinThread3RunEv + 0x8a)
+	0xfffffffff71d1b59: mfc400s + 0x12db59 (_ZN7CWinApp3RunEv + 0x29)
+	0x092dceab: quartus + 0x1294eab (_ZN7AFC_APP19win_app_run_wrapperEPv + 0x1d)
+	0xfffffffff779f0f9: ccl_thr_win32 + 0xe0f9 (thr_final_wrapper + 0xf)
+	0x089c2982: quartus + 0x97a982 (_Z18mem_thread_wrapperPFPvS_ES_ + 0xd2)
+	</callstack>
+	<error>Current editor: STED</error>
+	<date>Tue Apr 18 12:47:55 2017</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Segment Violation at 0x28
+Current editor: STED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+

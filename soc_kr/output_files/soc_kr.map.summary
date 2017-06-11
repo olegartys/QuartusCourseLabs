@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri May 26 16:50:50 2017
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : soc_kr
+Top-level Entity Name : count_mod4_altera
+Family : MAX 10
+Total logic elements : 52
+    Total combinational functions : 52
+    Dedicated logic registers : 35
+Total registers : 35
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

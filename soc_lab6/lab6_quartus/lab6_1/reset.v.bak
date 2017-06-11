@@ -1,0 +1,16 @@
+module reset(out_res, clk)
+
+output out_res;
+input clk;
+
+reg[31:0] front = 0;
+// Clocking operations
+always @(posedge clk)
+	begin
+		if (front >= 32'd100000000)
+			begin
+				front <= 32'd0;
+			end
+	else
+		front <= front + 1'b1;
+end

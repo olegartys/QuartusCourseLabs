@@ -1,0 +1,43 @@
+|count_mod4_altera
+Q1 <= inst1448.DB_MAX_OUTPUT_PORT_TYPE
+CLK => my_clk:inst228.clk
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|count_mod4_altera|my_clk:inst228
+myclk <= myclk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => myclk~reg0.CLK
+clk => front[0].CLK
+clk => front[1].CLK
+clk => front[2].CLK
+clk => front[3].CLK
+clk => front[4].CLK
+clk => front[5].CLK
+clk => front[6].CLK
+clk => front[7].CLK
+clk => front[8].CLK
+clk => front[9].CLK
+clk => front[10].CLK
+clk => front[11].CLK
+clk => front[12].CLK
+clk => front[13].CLK
+clk => front[14].CLK
+clk => front[15].CLK
+clk => front[16].CLK
+clk => front[17].CLK
+clk => front[18].CLK
+clk => front[19].CLK
+clk => front[20].CLK
+clk => front[21].CLK
+clk => front[22].CLK
+clk => front[23].CLK
+clk => front[24].CLK
+clk => front[25].CLK
+clk => front[26].CLK
+clk => front[27].CLK
+clk => front[28].CLK
+clk => front[29].CLK
+clk => front[30].CLK
+clk => front[31].CLK
+
+

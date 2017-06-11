@@ -1,0 +1,7 @@
+|first_prj
+y <= not4.DB_MAX_OUTPUT_PORT_TYPE
+x1 => not1.IN0
+x1 => inst2.IN1
+x2 => not2.IN0
+
+
